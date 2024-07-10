@@ -4,7 +4,7 @@ import axios from "axios";
 const DeleteButton = ({ id, onDelete }) => {
   const handleDelete = () => {
     axios
-      .delete(`https://localhost:7265/Cat/DeleteCat?id=${id}`)
+      .delete(`https://localhost:7163/Cat/DeleteCat?id=${id}`)
       .then((response) => {
         console.log(response);
         onDelete();

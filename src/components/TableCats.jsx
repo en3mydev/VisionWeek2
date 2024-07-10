@@ -9,7 +9,7 @@ const TableCats = () => {
 
   useEffect(() => {
     axios
-      .get("https://localhost:7265/Cat/GetCatNames")
+      .get("https://localhost:7163/Cat/GetCatNames")
       .then((response) => {
         setCats(response.data);
         setShouldUpdate(false);

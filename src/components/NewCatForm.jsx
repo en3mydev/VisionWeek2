@@ -31,7 +31,7 @@ export default function NewCatForm() {
     const newCat = { name, color, description };
 
     axios
-      .post("https://localhost:7265/Cat/AddCat", newCat)
+      .post("https://localhost:7163/Cat/AddCat", newCat)
       .then((response) => {
         console.log(response);
         setName("");

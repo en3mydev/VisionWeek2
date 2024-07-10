@@ -31,7 +31,7 @@ export default function EditForm() {
 
   useEffect(() => {
     axios
-      .get(`https://localhost:7265/Cat/${id}`)
+      .get(`https://localhost:7163/Cat/${id}`)
       .then((response) => {
         setCat(response.data);
         setIsCat(true);
@@ -46,7 +46,7 @@ export default function EditForm() {
     e.preventDefault();
     if (!validateForm()) return;
     axios
-      .put(`https://localhost:7265/Cat/UpdateCat?id=${id}`, cat)
+      .put(`https://localhost:7163/Cat/UpdateCat?id=${id}`, cat)
       .then((response) => {
         console.log(response);
         navigate("/cats");

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <main className="flex flex-col catcafe items-center justify-center text-5xl bg-white min-h-screen">
+    <main className="flex flex-col catcafe items-center justify-center text-5xl bg-white min-h-80">
       <h1 className="">
         Welcome to our <span className="text-yellow-500">cats</span> page{" "}
         <span className="text-yellow-500">^</span>

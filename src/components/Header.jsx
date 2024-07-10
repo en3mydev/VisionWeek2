@@ -8,7 +8,7 @@ export default function Header() {
         <Link to="/" className="catcafe text-6xl">
           `
         </Link>
-        <ul className="flex space-x-10 catcafe">
+        <ul className="hidden min-[850px]:flex space-x-10 catcafe">
           <li>
             <Link
               to="/cats"

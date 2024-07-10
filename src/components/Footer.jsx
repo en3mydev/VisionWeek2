@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="catcafe bg-blue-500 py-4 mt-20">
+    <footer className="catcafe bg-blue-500 py-4">
       <div className="flex justify-center">
         <div className="text-7xl">
           <h1>
