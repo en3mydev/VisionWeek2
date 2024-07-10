@@ -9,7 +9,7 @@ export default function Home() {
         <span className="text-yellow-500">^</span>
       </h1>
       <p>
-        Vezi pisicile noastre -&gt;{" "}
+        See our cats -&gt;{" "}
         <Link
           className="text-blue-500 hover:text-blue-800 transition duration-300"
           to="/cats"

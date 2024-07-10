@@ -74,7 +74,7 @@ export default function EditForm() {
           onSubmit={handleSubmit}
         >
           <h1 className="text-2xl font-bold mb-4">Edit Cat</h1>
-          <div className="mb-4">
+          <div className="mb-4 w-full">
             <label htmlFor="name" className="block text-gray-700 font-bold">
               Name
             </label>
